@@ -6,26 +6,14 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/coleparrish9"
-    },
-    "keywords": [
-        "MySQL",
-        "node.js",
-        "inquirer"
-    ],
-    "author": "Cole Parrish",
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/coleparrish9"
-    },
-    "homepage": "https://github.com/coleparrish9",
+    
     "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
         "inquirer": "^8.2.4",
-        "mysql2": "^3.6.2"
-    },
-    "devDependencies": {
-        "dotenv": "^16.3.1"
+        "mysql2": "^3.6.0",
+        "sequelize": "^6.33.0"
     }
 }
