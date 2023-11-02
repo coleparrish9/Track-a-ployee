@@ -56,7 +56,7 @@ async function addRole() {
             }
         ]).then((answers) => {
             const departmentName = answers.addDepartment
-            const departmentID = departmentName // find department id based on department name
+            const departmentID = departmentName
             console.log(departmentID)
 
             switch(answers.addRole) {

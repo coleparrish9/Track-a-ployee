@@ -44,7 +44,7 @@ VALUES ("Sales Lead",100000,3),
        ("Painting",85000,5),
        ("Shaper",80000,1),
        ("Junior Shaper",75000,1);
-
+       
 INSERT INTO employees (first_name,last_name,role_id,manager_id)
 VALUES ("Calvin","Ortiz",9,NULL),
        ("Tim","Roach",5,NULL),
